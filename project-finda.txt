@@ -1,6 +1,6 @@
 ========== HEADER ==========
 .nav__logo
-BEROTOT
+
 
 .nav__link
 Home
@@ -17,45 +17,59 @@ Register Now
 
 ========== HOME ==========
 .home__subtitle
-MAKE YOUR
+HAZ QUE TU CUERPO
 
 .home__title
-BODY SHAPE
+ESTÉ EN FORMA
 
 .home__description
-In here we will help you to shape and build your ideal 
-body and live your life to the fullest.
+Asociación de Fisicoculturismo, Fitness natural y Deportes afines.
 
 .button
-Get Started
+Comenzar
 
 
 ========== PROGRAM ==========
 .section__subtitle
-Our Program
+Nuestros eventos
 
 .section__title-border
-BUILD YOUR
+CONSTRUÍ TU
 
 .section__title
-BEST BODY
+MEJOR CUERPO
 
 .program__title | .program__description
-Flex Muscle
-Creating tension that's temporarily making the muscle 
-fibers smaller or contracted.
+Coppa Roma
+Categorías naturales: Bikini Fitness, Mens Fitness, Natural Wellness, Natural Bodybuilidng,Classic, Fitness Athletic.
 
-Cardio Exercise
-Exercise your heart rate up and keeps it 
-up for a prolonged period of time.
+pin: Teatro Galpón Artistico Caballito, Av Avellaneda 1359- CABA
+pencil: Inscripción ON-LINE
+Schedule: Registro de atletas: 13 hs- Comienzo: 14 hs
+Ig: Organiza Finda https://www.instagram.com/finda_argentina/
 
-Basic Yoga
-Diaphragmatic this is the most common breathing 
-technique you'll find in yoga.
 
-Weight Lifting
-Attempts a maximum weight single lift of a 
-barbell loaded with weight plates.
+Copa Argentina 
+Fisicoculturismo y Fitness Natural
+Categorías: Bikini Fitness, Mens Fitness, Natural Wellness, Natural Bodybuilidng,Classic, Fitness Athletic.
+
+pin: Teatro Galpón Artistico Caballito, Av Avellaneda 1359- CABA
+pencil: Inscripción ON-LINE
+Schedule: Registro de atletas: 17 hs- Comienzo: 18 hs
+Ig: Organiza Finda https://www.instagram.com/finda_argentina/
+
+Coppa Roma 2 
+Categorías naturales: Bikini Fitness, Mens Fitness, Natural Wellness, Natural Bodybuilidng,Classic, Fitness Athletic. Abiertas categorías Jr. y Masters
+pin: Teatro Galpón Artistico Caballito, Av Avellaneda 1359- CABA
+pencil: Inscripción ON-LINE
+Schedule: Registro de atletas: 13 hs- Comienzo: 14 hs
+Ig: Organiza Finda https://www.instagram.com/finda_argentina/
+
+
+Seminario Juzgamiento y Poses FINDA 2023
+Archivo PDF descargable con toda la Teoría, Estadísticas y Ejemplos que necesitas para esta COPPA ROMA 2023.
+pdf: 
+
 
 
 ========== CHOOSE US ==========
