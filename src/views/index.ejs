@@ -22,7 +22,7 @@
         <header class="header" id="header">
             <nav class="navbar  navbar-expand-lg bg-body-tertiary">
                 <div class="container">
-                    <a class="navbar-brand nav__logo" href="/">
+                    <a class="navbar-brand nav__logo" href="#home">
                         <img src="/img/finda-logo.png" alt="logo-finda">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,25 +31,37 @@
                     <div class="collapse navbar-collapse nav__menu" id="navbarNavDropdown">
                         <ul class="nav__list " >
                             <li class="nav__item">
-                                <a class="nav__link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav__link active" aria-current="page" href="#home">Inicio</a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">Calendario</a>
+                                <a class="nav__link" href="#events">Calendario</a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">Nuestra liga</a>
+                                <a class="nav__link" href="#pricing">Nuestra liga</a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">Galería</a>
+                                <a class="nav__link" href="#gallery">Galería</a>
                             </li>
                             <li class="nav__item dropdown">
                                 <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Sobre Finda
                                 </a>
                                 <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Nosotros</a></li>
-                                <li><a class="dropdown-item" href="#">Beneficios para socios</a></li>
-                                <li><a class="dropdown-item" href="#">Contacto</a></li>
+                                    <li class="nav__link">
+                                        <a class="dropdown-item " href="#chooseus">
+                                            Nosotros
+                                        </a>
+                                    </li>
+                                    <li class="nav__link">
+                                        <a class="dropdown-item " href="#benefits">
+                                            Beneficios para socios
+                                        </a>
+                                    </li>
+                                    <li class="nav__link">
+                                        <a class="dropdown-item " href="#contact">
+                                            Contacto
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -96,7 +108,7 @@
             </section>
 
             <!--==================== EVENTS ====================-->
-            <section class="program section" id="program">
+            <section class="program section" id="events">
                 <div class="container">
                     <div class="section__data">
                         <h2 class="section__subtitle">Nuestros eventos</h2>
@@ -237,7 +249,7 @@
             </section>
 
             <!--==================== CHOOSE US ====================-->
-            <section class="choose section" id="choose">
+            <section class="choose section" id="chooseus">
                 <div class="choose__overflow">
                     <div class="choose__container container grid">
                         <div class="choose__content">
@@ -316,7 +328,7 @@
                             </header>
 
                             <!--DESCUENTOS DE SOCIOS-->
-                            <ul class="pricing__list">
+                            <ul class="pricing__list" id="benefits">
                                 <li class="pricing__item">
                                     <i class="ri-checkbox-circle-line"></i>20% descuento en todos los cursos, seminarios, y capacitaciones.
                                 </li>
