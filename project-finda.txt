@@ -3,16 +3,16 @@
 
 
 .nav__link
-Home
+Inicio
 
-Program
+Eventos
 
-Choose Us
+Nosotros
 
-Pricing
+Inscripción
 
 .nav__button
-Register Now
+Sumate
 
 
 ========== HOME ==========
@@ -74,99 +74,73 @@ pdf:
 
 ========== CHOOSE US ==========
 .section__subtitle
-Best Reason
+La mejor razón
 
 .section__title-border
-WHY
+POR QUÉ 
 
 .section__title
-CHOOSE US ?
+ELEGIRNOS? 
 
 .choose__description
-Choose your favorite class and start now. Remember the 
-only bad workout is the one you didn't do.
+Fisicoculturismo, Fitness y Deportes Afines.
+Somos una asociación internacional de profesionales dedicados y apasionados por los deportes de fuerza, agrupados con el fin de proporcionar a los atletas, coach, amantes del fitness en general, un espacio de competencias, cursos, capacitación y otras actividades relacionadas, basado en el respeto, la transparencia y capacidad de gestión.
+Somos un espacio destinado y dirigido por atletas y para atletas.
+
 
 .choose__number | .choose__subtitle
 200+
-Total Members
+Miembros
 
 50+
-Best trainers
+Entrenadores
 
 25+
-Programs
+Competencias
 
 100+
-Awards
+Premios
 
 
 ========== PRICING ==========
 .section__subtitle
-Pricing
+Inscripción
 
 .section__title-border
-OUR
+SE PARTE 
 
 .section__title
-SPECIAL PLAN
+DE FINDA
+
+Es tu oportunidad para poder unirte a esta enorme familia en crecimiento.
 
 .pricing__title | .pricing__number
-BASIC PACKAGE
-$120
 
-PREMIUM PACKAGE
-$240
+Valor de la inscripción: $20.000
 
-DIAMOND PACKAGE
-$420
+Alias: FINDA.ARGENTINA
+CUIT/CUIL: 20310805182
+
+Formulario de Inscripción. (Se deberá adjuntar comprobante de pago)
+link suscripción FINDA: https://docs.google.com/forms/d/e/1FAIpQLSdPMf-chnQ6aLsPKUqYOkjpA-UzkD2V5VXPMcmUU9QU2c19rA/viewform
+
+
 
 .pricing__item
-5 Days In A Week
+Beneficios para socios
 
-01 Sweatshirt
+Con tu credencial de socio FINDA podes adquirir los siguientes descuentos y beneficios en nuestros sponsors y actividades.
 
-01 Bottle of Protein
+FITDESA: 20% descuento en todos los cursos, seminarios, y capacitaciones.
+ADN Fitness : 15% descuento en productos de competición (pintura, slip, short).
+DHARMA : 20% descuento en tratamientos de estética corporal y depilación definitiva.
+FINDA: 20% descuento en entradas para eventos o capacitaciones FINDA.
 
-Access to Videos
 
-Muscle Stretching
+
 
 .pricing__button
-Purchase Now
-
-
-========== CALCULATE  ==========
-.section__title-border
-CALCULATE
-
-.section__title
-YOUR BMI
-
-.calculate__description
-The body mass index (BMI) calculator calculates 
-body mass index from your weight and height.
-
-.button
-Calculate Now
-
-* CALCULATE JS *
-// Check if the fields have a value
-	// Add and remove color
-	// Show message
-		Fill in the Height and Weight
-	// Remove message three seconds
-
-// BMI Formula
-
-// Show your health status
-	// Add color and display message
-		Your BMI is and you are skinny
-		Your BMI is and you are healthy
-		Your BMI is and you are overweight
-
-// To clear the input field
-
-// Remove message four seconds
+Sumate ahora
 
 
 ========== FOOTER ==========
