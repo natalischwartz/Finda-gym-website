@@ -502,7 +502,6 @@ iframe{
   position: relative;
   z-index: 1;
   margin: 10px auto;
-
 }
 
 /*=============== PRICING ===============*/
@@ -713,8 +712,53 @@ iframe{
   .choose__triangle-1{
     width: 260px;
   }
+
+  .home__image{
+    transform: translateY(1rem);
+  }
+
+  .choose__img{
+    transform: translateY(3.4rem);
+  }
 }
 
+/*Media for Images*/
+@media (341px <= width <= 1024px) {
+
+  .home__images{
+    position: relative;
+  }
+
+  
+  .home__image{
+    position: relative;
+    transform: translate(12%,8%);
+    margin: 10px auto;
+    
+  }
+
+  .choose__images{
+    position: relative;
+  }
+
+  .choose__img{
+    position: relative;
+    transform: translate(2%,16%);
+    margin: 10px auto;
+
+  }
+
+  .home__triangle,
+  .choose__triangle{
+    height: 300px;
+  }
+
+  .home__triangle-3,
+  .choose__triangle-1{
+    width: 260px;
+  }
+
+}
 
 /* For medium devices */
 @media screen and (min-width:768px){
