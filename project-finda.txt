@@ -145,31 +145,25 @@ Sumate ahora
 
 ========== FOOTER ==========
 .footer__logo
-BEROTOT
+Finda
 
 .footer__description
-Subscribe for company <br> updates below.
+Ponte en contacto con nosotros
 
 .button
-Subscribe
+Subscribirse
 
 .footer__title | .footer__link
-SERVICES
-Flex Muscle
-Cardio Exercise
-Basic Yoga
-Weight Lifting
 
-PRICING
-Basic
-Premium
-Diamond
+Navegación
 
-COMPANY
-About Us
-Careers
-Customers
-Partners
+Inicio
+Calendario
+Nuestra liga 
+Galería
+Nosotros
+Contacto
+
 
 .footer__social-link
 https://www.facebook.com/
@@ -177,7 +171,7 @@ https://twitter.com/
 https://www.instagram.com/
 
 .footer__copy
-&#169; Copyright Bedimcode. All rights reserved
+Designed by NataliSch
 
 
 * FOOTER EMAIL JS *

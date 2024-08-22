@@ -86,6 +86,7 @@ h1, h2, h3 {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 a {
@@ -381,7 +382,7 @@ iframe{
 }
 
 .program__info span {
-  font-size: var(--normal-font-size);
+  font-size: var(--small-font-size);
   font-weight: 500;
 }
 
@@ -389,7 +390,7 @@ iframe{
 
 .program__card i{
   font-size: 1.2rem;
-  margin-right: 8px;
+  margin-right: 2px;
   font-weight: 200;
 }
 
@@ -532,24 +533,24 @@ iframe{
   border-radius: 50%;
   place-items: center;
   margin-bottom: 1rem;
+  margin: 15px auto;
 }
 
-.pricing__title{
+.pricing__title,
+.pricing__number,
+.pricing__bankDetails{
   font-size: var(--h3-font-size);
   color: var(--text-color);
   margin-bottom: 1rem;
   line-height: 150%;
+  font-weight:400;
 }
 
-.pricing__number,
-.pricing__bankDetails{
-  font-size: var(--normal-font-size);
-  font-weight: 500;
-}
 
 .pricing__form{
   color: var(--first-color);
   cursor: pointer;
+  margin-left: 0.5rem;
 }
 
 .pricing__list,
@@ -573,6 +574,7 @@ iframe{
 .pricing__button{
   background-color: var(--title-color);
   height: 50px;
+  margin-top: 2rem;
 }
 
 .pricing__button:hover{
@@ -580,8 +582,109 @@ iframe{
 }
 
 /*=============== FOOTER ===============*/
+.footer__container{
+  row-gap: 4rem;
+  padding-top: 1rem;
+}
+
+.footer__description{
+  color: var(--title-color);
+}
+
+.footer__logo,
+.footer__form{
+  display: flex;
+}
+
+.footer__logo{
+  align-items: center;
+  column-gap: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer__logo img{
+  width: 20%;
+}
+
+.footer__description{
+  margin-bottom: 2rem;
+}
+
+.footer__form{
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.footer__input{
+  padding: 20px 56px 20px 24px;
+  border: 2px solid var(--first-color-light);
+  background: transparent;
+  color: var(--text-color);
+  outline: none;
+}
+
+.footer__group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  row-gap: 2rem;
+}
+
+
+.footer__content div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: 1.5rem;
+}
+
+.footer__links{
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.footer__link{
+  color: var(--text-color);
+  transition: color .3s;
+}
+
+.footer__link:hover{
+  color: var(--first-color);
+}
+
+
+.footer__social{
+  display: flex;
+  gap: 1.25rem;
+}
+
+.footer__social-link{
+  display: inline-flex;
+  padding: .35rem;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  font-size: 1.25rem;
+  color: var(--title-color-black);
+  transition: background .4s;
+}
+
+.footer__social-link:hover{
+  background-color: var(--first-color-dark);
+}
 .footer__copy{
-  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+.footer__message{
+  position: absolute;
+  transform: translateY(1rem);
 }
 
 
@@ -596,9 +699,231 @@ iframe{
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width:340px){
+  .section__titles{
+    flex-direction: column;
+    row-gap: .25rem;
+  }
+  .home__triangle,
+  .choose__triangle{
+    height: 255px;
+  }
+
+  .home__triangle-3,
+  .choose__triangle-1{
+    width: 260px;
+  }
+}
 
 
 /* For medium devices */
+@media screen and (min-width:768px){
+  .home__container,
+  .choose__container{
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  }
 
+  .home__data,
+  .choose__content .section__data,
+  .choose__description{
+    text-align: initial;
+  }
+
+  .logos__container{
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+  }
+
+  .program__container{
+    grid-template-columns: repeat(2,250px);
+    gap: 2.5rem;
+  }
+
+  .program__shape img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+  .program__title{
+    font-size: var(--h2-font-size);
+  }
+
+  .program__description{
+    font-size: var(--normal-font-size);
+  }
+
+  .program__info i,
+  .program__info span{
+    font-size: 20px;
+  }
+
+  .choose__content{
+    order:1;
+  }
+
+  .choose__data{
+    justify-items: flex-start;
+  }
+
+  .choose__content .section__titles{
+    justify-content: initial;
+  }
+
+  .choose__description{
+    font-size: 20px;
+  }
+
+  .pricing__container{
+    grid-template-columns: 400px;
+  }
+
+  .home__description,
+  .pricing__item,
+  .pricing__title,
+  .pricing__number,
+  .pricing__bankDetails,
+  .pricing__form,
+  .footer__description,
+  .footer__title,
+  .footer__links{
+    font-size: 20px;
+  }
+
+  .footer__container{
+    grid-template-columns: 400px;
+    place-content: center;
+    
+  }
+
+  .footer__logo img{
+    box-shadow: 2px 6px 14px whitesmoke;
+    width: 23%;
+  }
+
+  .footer__social-link{
+    font-size: 1.5rem;
+  }
+
+  .footer__copy{
+    font-size: var(--small-font-size);
+  }
+
+  }
 
 /* For large devices */
+@media screen and (min-width:1023px){
+  .header{
+    height: calc(var(--header-height) + 2rem);
+  }
+
+  .nav__menu{
+    width: initial;
+  }
+
+  .navbar .container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-toggler,
+  .nav__close{
+    display: none;
+  }
+
+  .nav__list{
+    flex-direction: row;
+    padding:0;
+    align-items: center;
+    column-gap: 4rem;
+    background-color:rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+  }
+
+  .nav__list li .nav__link{
+    color: var(--title-color-black);
+    font-size: 20px;
+  }
+
+  .section{
+    padding: 7rem 0 0;
+  }
+
+  .home__container{
+    grid-template-columns: repeat(2, max-content);
+    align-items: initial;
+  }
+
+  /* .home__subtitle{
+    font-size: var(--bigger-font-size);
+  } */
+
+  .home__title{
+    margin:.75rem 0 1.25rem;
+  }
+
+  .home__description{
+    padding: 20 0px;
+    margin-bottom: 3rem;
+  }
+
+  .home__image{
+    width: 550px;
+    transform: translateX(-4rem) translateY(1.1rem);
+  }
+
+  .home__triangle{
+    height: 700px;
+  }
+
+  .home__triangle-1{
+    width: 145px;;
+  }
+
+  .home__triangle-2{
+    width: 345px;
+  }
+
+  .home__triangle-3{
+    height: 545px;
+  }
+
+  /* .choose__overflow{ */
+    /* overflow: hidden;
+  } */
+
+  .choose__img{
+    width: 550px;
+  }
+
+  .choose__triangle{
+    height: 700px;
+  }
+
+  .choose__triangle-1{
+    width: 545px;
+  }
+
+  .choose__triangle-2{
+    width: 345px;
+  }
+
+  .choose__triangle-3{
+    width: 145px;
+  }
+
+  .choose__img{
+    transform: translateY(7rem);
+  }
+
+  .footer__form{
+    flex-direction: row;
+  }
+
+  /* .footer__container div {
+    display: flex;
+    flex-direction: row;
+  } */
+
+
+}
