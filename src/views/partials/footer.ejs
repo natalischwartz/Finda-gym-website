@@ -1,18 +1,33 @@
 <footer class="footer section" id="footer">
     <div class="footer__container container grid">
         <div>
-            <a href="" class="footer__logo">
+            <a href="" class="footer__logo logo__card ">
                 <img src="/img/finda-logo.png" alt="Logo Finda">
             </a>
             <p class="footer__description">Ponte en contacto con nosotros</p>
 
-            <form action="" class="footer__form" id="contact-form">
-                <input type="email" name="user_email" placeholder="Tu email" class="footer__input" id="contact-user">
-                <button type="submit" class="button">
-                    Suscribirse
-                </button>
+            <form class="row g-3" id="contact-form"  >
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input name="user_name" type="text" class="form-control" id="name-user">
+                </div>
+                <div class="col-md-6">
+                    <label for="lastname" class="form-label">Apellido</label>
+                    <input name="user_lastname" type="text" class="form-control" id="lastname-user">
+                </div>
+                <div class="col-12">
+                    <label for="user_email" class="form-label">Email</label>
+                    <input type="email" name="user_email" class="form-control"  id="contact-user" placeholder="nombre@email.com">
+                </div>
+                <div class="col-12 form-floating">
+                    <textarea  class="form-control" placeholder="Leave a comment here" id="floatingTextarea" name="user_message" id="message-user"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
             </form>
             <p class="footer__message" id="contact-message"></p>
+
         </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.4101497589136!2d-58.45364872514568!3d-34.61907415830782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3d303884c5%3A0x3daec11f0be0f367!2sGalp%C3%B3n%20Art%C3%ADstico%20de%20Caballito!5e0!3m2!1ses!2sar!4v1723920034800!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -59,8 +74,8 @@
                 </a>
 
             </ul>
-            <span class="footer__copy">
-                Designed by NataliSch &copy;
+            <span class="footer__copy text-center">
+                Developed by NataliSch &copy;
             </span>
         </div>
     </div>
