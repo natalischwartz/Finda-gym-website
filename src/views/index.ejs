@@ -3,6 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="author" content="Natali Schwartz">
+        <!--Primary Meta Tags-->
+        <meta name="title" content="evento de FISICOCULTURISMO Y FITNESS NATURAL">
+        <meta name="description" content="Fisicoculturismo, Fitness y Deportes Afines. Somos una asociación internacional de profesionales dedicados y apasionados por los deportes de fuerza, agrupados con el fin de proporcionar a los atletas, coach, amantes del fitness en general, un espacio de competencias, cursos, capacitación y otras actividades relacionadas, basado en el respeto, la transparencia y capacidad de gestión. Somos un espacio destinado y dirigido por atletas y para atletas.">
+
         <title>Inicio | Finda</title>
 
         <!--=============== FAVICON ===============-->
@@ -21,7 +26,7 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="navbar  navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
+                <div class="container-fluid d-flex align-items-center">
                     <a class="navbar-brand nav__logo" href="#home">
                         <img src="/img/finda-logo.png" alt="logo-finda">
                     </a>
@@ -29,7 +34,7 @@
                         <span class="navbar-toggler-icon" id="open-menu"></span>
                     </button>
                     <div class="collapse navbar-collapse nav__menu " id="navbarNavDropdown">
-                        <ul class="nav__list  " >
+                        <ul class="nav__list  ms-auto" >
                             <li class="nav__item">
                                 <a class="nav__link active" aria-current="page" href="#home">Inicio</a>
                             </li>
@@ -43,7 +48,7 @@
                                 <a class="nav__link" href="#liga">Nuestra liga</a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#pricing">Nosotros</a>
+                                <a class="nav__link" href="#chooseus">Nosotros</a>
                             </li>
                             <li class="nav__item">
                                 <a class="nav__link" href="#blog">Blog Finda</a>
@@ -67,7 +72,7 @@
                 <div class="home__container container grid">
                     <div class="home__data">
                         <h2 class="home__subtitle">HAZ QUE TU CUERPO</h2>
-                        <h1 class="home__title">ESTÉ EN FORMA</h1>
+                        <h1 class="home__title">ESTE EN FORMA</h1>
                         <p class="home__description">Asociación de Fisicoculturismo, Fitness natural y Deportes afines.</p>
                         <a href="#" class="button button__flex">
                             Comenzar <i class="ri-arrow-right-line"></i>
@@ -116,8 +121,8 @@
                     <div class="section__data">
                         <h2 class="section__subtitle">Nuestros eventos</h2>
                         <div class="section__titles">
-                            <h1 class="section__title-border">CONSTRUÍ TU</h1>
-                            <h1 class="section__title">MEJOR CUERPO</h1>
+                            <h1 class="section__title-border">SUMATE</h1>
+                            <h1 class="section__title">EN LAS COMPETENCIAS</h1>
                         </div>
                     </div>
                     <div class="program__container grid">
@@ -142,7 +147,7 @@
                                     <span>Inscripción ON-LINE</span>
                                 </div>
                                 <div>
-                                    <a href="https://docs.google.com/forms/d/1aSsdYhs-2-CDqCNYFnzUG9dAESaSMjGBuZlqHu7wY1w/edit?usp=drivesdk" target="_blank" class="btn btn-primary mt-2">Enlace de inscripción</a>
+                                    <a href="https://docs.google.com/forms/d/1aSsdYhs-2-CDqCNYFnzUG9dAESaSMjGBuZlqHu7wY1w/edit?usp=drivesdk" target="_blank" class="btn btn-primary mt-2" style="background-color: var(--first-color-dark)">Enlace de inscripción</a>
                                 </div>
                                 <div class="d-flex align-items-center gap-1">
                                     <i class="ri-calendar-schedule-line"></i>
@@ -235,15 +240,17 @@
                             <p class="program__description">
                                 Archivo PDF descargable con toda la Teoría, Estadísticas y Ejemplos que necesitas para esta COPPA ROMA 2023.
                             </p>
-                            <a href="" download="seminario-juzgamiento-y-poses-finda-2023" class="btn btn-primary mt-2 mb-2">Descargar PDF</a>
-                            <div class="d-flex align-items-center gap-1">
-                                <i class="ri-instagram-line">
-                                </i>
-
-                                <a href="https://www.instagram.com/finda_argentina/" target="_blank">
-                                    <span style="color:#B5BABA; font-size: var(--small-font-size);">Organiza Finda</span>
-                                </a>
-    
+                            <div class="program__info">
+                                <div>
+                                    <a href="/img/seminario-juzgamiento-y-poses-finda-2023.ppt" target="_blank" download="seminario-juzgamiento-y-poses-finda-2023.ppt" class="btn btn-primary mt-2" style="background-color: var(--first-color-dark)">Descargar Presentación</a>
+                                </div>
+                                
+                                <div class="d-flex align-items-center gap-1">
+                                    <i class="ri-instagram-line"></i>
+                                    <a href="https://www.instagram.com/finda_argentina/" target="_blank">
+                                        <span style="color: #B5BABA">Organiza Finda</span>
+                                    </a>
+                                </div>
                             </div>
                         </article>
                     </div>
@@ -251,13 +258,13 @@
             </section>
 
             <!--==================== SLIDER GALLERY ====================-->
-            <section class="gallery section" id="gallery">
+            <section class="gallery section container" id="gallery">
                 <div class="container">
                     <div class="section__data">
                         <h2 class="section__subtitle">Galería</h2>
                         <div class="section__titles">
-                            <h1 class="section__title-border">LAS</h1>
-                            <h1 class="section__title">DISTINTAS CATEGORÍAS</h1>
+                            <h1 class="section__title-border">CATEGORÍAS</h1>
+                            <h1 class="section__title">MODALIDADES</h1>
                         </div>
                     </div>
                     <div class="gallery__container container">
@@ -448,7 +455,7 @@
                 </div>
                 <div>
                     <div class="card mx-auto" style="width: 18rem;">
-                        <img src="/img/beneficios.jpg" class="card-img-top" alt="Foto consumo de esteroides">
+                        <img src="/img/esteroides.png" class="card-img-top" alt="Foto consumo de esteroides">
                         <div class="card-body">
                             <h5 class="card-title">Riesgos del consumo de esteroides en el fisicoculturismo.</h5>
                             <p class="card-text">Según Ozores, …No se puede determinar si Lindner falleció por el consumo de esteroides o no, pero sí se puede llegar a una hipótesis: el consumo excesivo y por taños años -teniendo en cuenta que él era atleta y tenía una predisposición genética al aneurisma– generó un envejecimiento más rápido a nivel arterial y una solidificación de los vasos capilares…</p>
