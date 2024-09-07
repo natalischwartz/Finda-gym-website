@@ -359,8 +359,10 @@ iframe{
 }
 
 .logos__img{
-  width: 21vw;
-  height: 15vh;
+  /* width: 21vw;
+  height: 15vh; */
+  width: 70px;
+  height: 80px;
 
 }
 
@@ -378,7 +380,6 @@ iframe{
   padding: .3rem .3rem;
   border: 2px solid transparent;
   transition: background .5s, border .4s;
-  align-items: center;
 }
 
 .program__title{
@@ -395,16 +396,18 @@ iframe{
 .program__title,
 .program__description{
   transition: color .3s;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
+  padding-left: 1rem;
 }
 
 .program__info{
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
 }
+
 
 .program__info span {
   font-size: var(--small-font-size);
@@ -596,13 +599,19 @@ object-position: center center;
 }
 
 .pricing__shape{
-  width: 60px;
-  height: 60px;
-  background-color: var(--first-color-gray);
+  width: 80px;
+  height: 80px;
+  /* background-color: var(--first-color-gray); */
   border-radius: 50%;
   place-items: center;
   margin-bottom: 1rem;
   margin: 15px auto;
+}
+
+.pricing__shape img{
+  width: 70px;
+  height: 70px;
+  margin: 10px auto;
 }
 
 .pricing__title,
@@ -807,6 +816,15 @@ object-position: center center;
 /* For small devices */
 @media screen and (max-width:340px){
 
+  .navbar-toggler.collapsed {
+    border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
   .section__titles{
     flex-direction: column;
     row-gap: .25rem;
@@ -830,17 +848,14 @@ object-position: center center;
 /*Media for Images*/
 @media (341px <= width <= 1024px) {
 
-  /* .home__images{
-    position: relative;
-  }
+  .navbar-toggler.collapsed {
+    border: none;
+}
 
-
-  .home__image{
-    position: relative;
-    transform: translate(12%,8%);
-    margin: 10px auto;
-
-  } */
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
 
   .choose__images{
     position: relative;
@@ -876,6 +891,15 @@ object-position: center center;
 /* For medium devices */
 @media screen and (min-width:768px){
   
+  .navbar-toggler.collapsed {
+    border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
   .home__container,
   .choose__container{
     grid-template-columns: repeat(2,1fr);
