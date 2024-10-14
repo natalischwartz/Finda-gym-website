@@ -868,7 +868,7 @@ object-position: center center;
 
   }
 
-  .home__triangle,
+  /* .home__triangle, */
   .choose__triangle{
     height: 350px;
   }
@@ -1005,9 +1005,9 @@ object-position: center center;
 /* For large devices */
 @media screen and (min-width:992px){
 
-  .container{
+  /* .container{
     max-width: 100%;
-  }
+  } */
 
   .header{
     height: calc(var(--header-height) + 2rem);
@@ -1051,7 +1051,7 @@ object-position: center center;
   }
 
   .home__container{
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: 2fr 1fr;
     align-items: center;
   }
 
@@ -1068,7 +1068,7 @@ object-position: center center;
 
 
   .home__triangle{
-    height: 700px;
+    height: 380px;
   }
 
   .home__triangle-1{
@@ -1080,7 +1080,7 @@ object-position: center center;
   }
 
   .home__triangle-3{
-    height: 545px;
+    height: 379px;
   }
 
   /* .choose__overflow{ */
@@ -1122,6 +1122,42 @@ object-position: center center;
 
   .finda__card img{
     width: 20vw;
+  }
+
+}
+
+@media screen and (min-width:1024px){
+  /* .container{
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+  .section{
+    padding: 8rem 0 1rem;
+  }
+
+
+  .home{
+    padding: 13rem 0 5rem;
+  }
+  .home__images{
+    width: 350px;
+    height: 100%;
+  }
+
+  .home__image{
+    display: block;
+    width: 315px;
+    transform: translate(10px, 8px);
+    margin: 10px auto;
+  }
+
+  .home__subtitle{
+    font-size: var(--big-font-size);
+  }
+
+  .home__title{
+    font-size: var(--big-font-size);
   }
 
 }
